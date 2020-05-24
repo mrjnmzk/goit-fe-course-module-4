@@ -1,0 +1,216 @@
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+header {
+    padding-top: 38px;
+    width: 1110px;
+    margin: 0 auto;
+    padding-bottom: 111px;
+    
+}
+
+.menu li {
+    float: left;
+}
+
+
+.menu a {
+    color: #0f0101;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.main-logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #515151;
+    font-size: 30px;
+    float: left;
+}
+
+.main-logo::first-letter {
+    color: #1abc9c;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+ul a:hover,
+ul a:focus {
+color: #1abc9c;
+}
+
+.name a:hover {
+    background-color: #1abc9c;
+}
+
+.menu li:not(:last-child) {
+    margin-right: 35px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #515151;
+    margin: 0;
+   
+    
+}
+
+h2::after {
+    width: 164px;
+    height: 70px;
+    color: red;
+    content: "";
+    
+}
+
+.catalog {
+    width: 1110px; 
+    margin: 0 auto;
+    
+}
+
+.shirt-item {
+    width: 255px;
+    height: 322px;
+    background-color: #e9f0fd;
+    padding: 0;
+    margin: 0;
+    outline: 2px solid #000
+    
+    
+} 
+
+.name {
+    float: left;
+    background-color: #323232;
+    width: 201px;
+    height: 40px;
+    margin: 0;
+    
+}
+
+.featured-products {
+    width: 1110px; 
+    padding: 0;
+    margin: 0;
+    padding-bottom: 105px;   
+}
+
+.shirt-item a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Roboto - Black";
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.price {
+    float: right;
+    width: 54px;
+    height: 40px;
+    background-color: #646464;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+
+.featured-products li {
+    float: left;
+    list-style: none;
+    display: block;
+    
+}
+
+.featured-products li:not(:nth-child(4n)) {
+    margin-right: 30px;
+    
+}
+
+.featured-products li:not(:nth-last-child(-n+4)) {
+    margin-bottom: 30px;
+}
+
+.shirt-item::before {
+    background-color: #e9f0fd;
+}
+
+.news-item {
+    width: 350px;
+    height: 500px;
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+    float: left;
+    color: #555252;
+    
+}
+.catalog-2 {
+    width: 1110px;
+    margin: 0 auto;
+
+}
+
+.news {
+    margin: 0;
+    padding: 0;
+}
+
+.news li:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.news-item-title {
+    color: #555252;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.news-item-title::after {
+    width: 164px;
+    height: 70px;
+    color: red;
+    content: "";
+}
+
+.news-item-text {
+    color: #555252;
+    font-family: "Open Sans";
+    font-size: 14px;
+    
+}
+
+button {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    padding-top: 19px;
+    padding-right: 42px;
+    padding-bottom: 18px;
+    padding-left: 43px;
+    background-color: #4ec6ab;
+    border-radius: 5px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+
